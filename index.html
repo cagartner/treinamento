@@ -3,14 +3,73 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Título Legal</title>
+		<meta name="description" content="Bem vindo ao Chapa-Quente o mais completo blog sobre assuntes nerds, com notícias quentinhas!">
+		<link rel="shortcut icon" href="favicon.png">
 	</head>
 	<body>
+		<style type="text/css">
+			body {
+				background: #ccc url(images/sobresuasasas.jpg) center center no-repeat;
+				background-size: cover;
+				color: #fff;
+
+				/* Font-styles */
+				font-size: 14px;
+				font-family: Arial, sans-serif;
+				font-weight: 400;
+				font-style: normal;
+			}
+
+			p {
+				color: #ff0000;
+			}
+
+			.color-yellow {
+				color: yellow;
+			}
+
+			.background-black {
+				background-color: black;
+			}
+
+			#paragraph-1 {
+				font-size: 30px;
+			}
+
+			.red-space {
+				width: 200px;
+				height: 60px;
+				background-color: red;
+			}
+
+			.square {
+				width: 200px;
+				height: 200px;
+				background: green;
+				margin-top: 50px;
+				margin-left: 20px;
+				margin-right: 10px;
+				margin-bottom: 10px;
+
+				padding: 20px;
+
+				box-sizing: border-box;
+				text-align: center;
+
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+		</style>
 
 		<!-- Elementos de Blocos -->
-		<p>Meu Gato é muito <strong>mal-humorado</strong></p>
+		<p id="paragraph-1">Meu Gato é muito <strong class="color-yellow background-black">mal-humorado</strong></p>
 
-		<div>Minha div</div>
-		<section>Minha section</section>
+		<div class="red-space">Minha div</div>
+		<section class="square">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</section>
 		<header>Minha Header</header>
 		<footer>Minha Footer</footer>
 		<h1>Titulo 1</h1>
@@ -19,6 +78,8 @@
 		<h4>Titulo 4</h4>
 		<h5>Titulo 5</h5>
 		<h6>Titulo 6</h6>
+
+		<p>Meu Gato é muito <strong>mal-humorado</strong></p>
 
 		<!-- Elementos em linha -->
 		<a href="http://google.com.br">Meu Link</a>
