@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Título Legal</title>
+	</head>
+	<body>
+		<style type="text/css">
+
+			.wrap {
+				margin-top: 10%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.smile {
+				width: 20rem;
+				height: 20rem;
+				background: yellow;
+				border-radius: 50%;
+				border: solid 3px black;
+				display: flex;
+				padding: 5rem;
+				justify-content: space-between;
+				position: relative;
+			}
+
+			.eye {
+				width: 9rem;
+				height: 8rem;
+				background: white;
+				border: solid 3px black;
+				border-top-right-radius: 50%;
+				border-top-left-radius: 50%;
+				position: relative;
+			}
+
+			.eye::before {
+				position: absolute;
+				top: .5rem;
+				right: 5px;
+				content: ' ';
+				background: black;
+				width: 3rem;
+				height: 3rem;
+				border-radius: 50%;
+
+			}
+
+			.mouth {
+				position: absolute;
+				bottom: 0px;
+				left: 5rem;
+				background: red;
+				width: 15rem;
+				height: 9rem;
+				border-bottom-right-radius: 18rem;
+				border-bottom-left-radius: 18rem;
+			}
+
+		</style>
+
+		<div class="wrap">
+
+			<div class="smile">
+				
+				<div class="eye"></div>
+				<div class="eye"></div>
+
+				<div class="mouth"></div>
+
+			</div>
+
+		</div>
+
+	</body>
+</html>
